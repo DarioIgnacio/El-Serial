@@ -53,3 +53,28 @@ div.horizontal {
     display: flex;
     list-style: none;
 }
+
+.noticias{
+height: 700px;
+color: white;
+margin-top: 20px;
+}
+
+.lista{
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+}
+section ul li{
+    display: flex;
+    flex-direction: column;
+    border: 1px white solid;
+}
+
+section ul li img{
+    width: 650px;
+    height: 400px;
+}
+section ul li p{
+    padding-left: 20px;
+}
