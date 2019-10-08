@@ -1,58 +1,56 @@
-        .logo {
-        width: 500px;
-    }
-    
-    .icono1 {
-        width: 30px;
-    }
-    
-    .icono3 {
-        width: 30px;
-    }
-    
-    .icono2 {
-        width: 30px;
-    }
-    
-    body {
-        background-color: black;
-    }
-    
-    header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-    }
-    
-    input {
-        width: 130px;
-        height: 40px;
-    }
-    
-    ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    div.horizontal {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        justify-content: space-between;
-        margin-right: 150px;
-        margin-left: 150px;
-        height: 20px;
-    }
-    
-    .Menu {
-        display: flex;
-        list-style: none;
-    }
-    
-    .Menu2 {
-        display: flex;
-        list-style: none;
-    }
-    
-    li {
-        list-style: none;
+/* Logo de la pagina */
+
+.logo {
+    width: 500px;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+/* Menu */
+
+div {
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+    top: -48px;
+}
+
+nav {
+    display: flex;
+    margin-top: 50px;
+    height: 65px;
+    background: rgba(118, 118, 118, 0.30);
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+    align-items: center;
+}
+
+button {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: none;
+    border: none;
+}
+
+.Menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
