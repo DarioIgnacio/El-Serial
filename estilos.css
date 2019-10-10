@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* Logo de la pagina */
 
 .logo {
@@ -53,4 +54,249 @@ button {
 
 body {
     background-color: black;
+=======
+/* Logo de la pagina */
+
+.logo {
+    width: 500px;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+/* Menu */
+
+.horizontal {
+    display: flex;
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+    top: -48px;
+}
+
+nav {
+    display: flex;
+    margin-top: 50px;
+    height: 65px;
+    background: rgba(118, 118, 118, 0.30);
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+    align-items: center;
+}
+
+button {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    color: rgb(255, 255, 255, 0.7);
+    background: none;
+    border: none;
+}
+
+button:hover {
+    color: rgb(255, 255, 255, 2);
+}
+
+.Menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.peliculas {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*peliculas*/
+
+.noticias {
+    color: white;
+    margin-top: 20px;
+    height: 1100px;
+}
+
+.lista {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.peliculas_row {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 25%;
+    box-shadow: 5px 5px 20px #333333;
+}
+
+.peliculas_row:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.peliculas_row img {
+    height: 250px;
+}
+
+.titulonoticia {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    line-height: 43px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*series*/
+
+.noticias2 {
+    margin-top: 20px;
+    height: 1000px;
+    width: 100%;
+}
+
+.arriba {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+}
+
+.blur {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.blur img {
+    width: 100%;
+    height: 100%;
+}
+
+.blur p {
+    opacity: 0;
+    position: relative;
+    top: -500px;
+    color: white;
+    z-index: 99;
+    font-size: 50px;
+    height: 200px;
+}
+
+.blur p:hover {
+    opacity: 1;
+}
+
+.blur:hover {
+    filter: grayscale(100%);
+}
+
+.abajo {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+}
+
+.blur_abajo {
+    width: 33.3%;
+}
+
+.blur_abajo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*carrousel*/
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.peliculas {
+    color: white;
+    z-index: 99;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.color {
+    position: relative;
+    top: -15px;
+    background: red;
+    height: 25px;
+    opacity: 0.5;
+    margin-left: 5px;
+    width: 200px;
+>>>>>>> Stashed changes
 }
