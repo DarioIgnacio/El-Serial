@@ -15,9 +15,9 @@
 }
 
 body {
-    background:url(../El-Serial/Imagenes/fondo3.jpg);
-    background-position-x: 75%;
-    background-position-y: 200%;
+    background:url(../El-Serial/Imagenes/fondo3.jpg) center center;
+    background-size: 100%;
+    background-position-y: 150%;
 
 }
 
