@@ -1,217 +1,180 @@
-.logo {
+    .logo {
     width: 500px;
 }
 
 .icono1 {
     width: 30px;
-}
-
-.icono3 {
-    width: 30px;
-}
-
-.icono2 {
-    width: 30px;
-}
-
-body {
-    background:url(../El-Serial/Imagenes/fondo3.jpg) center center;
-    background-size: 100%;
-    background-position-y: 150%;
-    margin:0;
-
-}
-
-header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-input {
-    width: 130px;
-    height: 40px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-div.horizontal {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-between;
-    margin-right: 150px;
-    margin-left: 150px;
-    height: 20px;
-}
-
-.Menu {
-    display: flex;
-    list-style: none;
-}
-
-.Menu2 {
-    display: flex;
-    list-style: none;
-}
-/*peliculas*/
-.noticias{
-color: white;
-margin-top: 20px;
-height: 1100px;
-
-}
-
-.lista{
-height: 100%;   
-display: flex;
-flex-wrap: wrap;
-list-style: none;
-width: 100%;
-justify-content: space-around;
-align-content: space-around;
-}
-
-.peliculas_row{
-    display: flex;
-    flex-direction: column;
-    border: 1px red solid;
-    width: 25%;
-    box-shadow: 10px 5px 5px red;
-    border-radius: 3%;
-    background: black;
-}
-.peliculas_row:hover{
-    box-shadow: none;
-    cursor: pointer;
-}
-.peliculas_row img{   
-height: 400px;
-border-radius: 3%;
-}
-.peliculas_row p{
-    padding-left: 20px;
-    
-}
-
-/*series*/
-.noticias2{
-    margin-top: 20px;
-    height: 1000px;
-    width: 100%;
+    ul {
+        margin: 0;
+        padding: 0;
     }
-
-.arriba{
-    height: 50%;   
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    width: 100%;
-    
+    div.horizontal {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        justify-content: space-between;
+        margin-right: 150px;
+        margin-left: 150px;
+        height: 20px;
     }
-.blur{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    z-index: 10;
-}
-.blur img{
-    width: 100%;
-    height: 100%;
-}
-.blur p{
-    opacity: 0;
-    position: relative;
-    top:-500px;
-    color:black;
-    z-index: 99;
-    font-size: 50px;
-    height: 200px;
-}
-.blur p:hover{
-opacity: 1;
-}
-.blur:hover{
-filter: grayscale(100%);
-}
-.abajo{
-    height: 50%;   
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    width: 100%;  
-}
-.blur_abajo{
-    width: 33.3%;
-}
-.blur_abajo img{
-    width: 100%;
-    height: 100%;
-}
-
-
-/*carrousel*/
-
-.slider {
-	width: 100%;
-	margin: auto;
-    overflow: hidden;
-   margin-top:50px;
-   height: 100vh;
-   
-}
-
-.slider ul {
-	display: flex;
-	padding: 0;
-	width: 400%;
-	animation: cambio 20s infinite alternate linear;
-}
-
-.slider li {
-	width: 100%;
-    list-style: none;
-}
-
-.slider img {
-    width: 100%; 
-}
-
-@keyframes cambio {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
-}
-
-/* titulos */
-.peliculas{
-    color: black;
-    z-index: 99;
-    font-size: 30px;
-    position: relative;
-    margin-bottom: 10px;
-    margin-left: 80px;
-}
-.color{
-position: relative;
-top:-60px;
-background: url(../El-Serial/Imagenes/blood2.png);
-height: 100px;
-opacity: 1;
-width: 220px;
-background-position: center;
-background-size: cover;
-
-}
-
+    .Menu {
+        display: flex;
+        list-style: none;
+    }
+    .Menu2 {
+        display: flex;
+        list-style: none;
+    }
+    /*peliculas*/
+    .noticias {
+        color: white;
+        margin-top: 20px;
+        height: 1100px;
+    }
+    .lista {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 100%;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .peliculas_row {
+        display: flex;
+        flex-direction: column;
+        border: 1px red solid;
+        width: 25%;
+        box-shadow: 10px 5px 5px red;
+        border-radius: 3%;
+        background: black;
+    }
+    .peliculas_row:hover {
+        box-shadow: none;
+        cursor: pointer;
+    }
+    .peliculas_row img {
+        height: 400px;
+        border-radius: 3%;
+    }
+    .peliculas_row p {
+        padding-left: 20px;
+    }
+    /*series*/
+    .noticias2 {
+        margin-top: 20px;
+        height: 1000px;
+        width: 100%;
+    }
+    .arriba {
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 100%;
+    }
+    .blur {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+    }
+    .blur img {
+        width: 100%;
+        height: 100%;
+    }
+    .blur p {
+        opacity: 0;
+        position: relative;
+        top: -500px;
+        color: black;
+        z-index: 99;
+        font-size: 50px;
+        height: 200px;
+    }
+    .blur p:hover {
+        opacity: 1;
+    }
+    .blur:hover {
+        filter: grayscale(100%);
+    }
+    .abajo {
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 100%;
+    }
+    .blur_abajo {
+        width: 33.3%;
+    }
+    .blur_abajo img {
+        width: 100%;
+        height: 100%;
+    }
+    /*carrousel*/
+    .slider {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        margin-top: 50px;
+        height: 100vh;
+    }
+    .slider ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 20s infinite alternate linear;
+    }
+    .slider li {
+        width: 100%;
+        list-style: none;
+    }
+    .slider img {
+        width: 100%;
+    }
+    @keyframes cambio {
+        0% {
+            margin-left: 0;
+        }
+        20% {
+            margin-left: 0;
+        }
+        25% {
+            margin-left: -100%;
+        }
+        45% {
+            margin-left: -100%;
+        }
+        50% {
+            margin-left: -200%;
+        }
+        70% {
+            margin-left: -200%;
+        }
+        75% {
+            margin-left: -300%;
+        }
+        100% {
+            margin-left: -300%;
+        }
+    }
+    /* titulos */
+    .peliculas {
+        color: black;
+        z-index: 99;
+        font-size: 30px;
+        position: relative;
+        margin-bottom: 10px;
+        margin-left: 80px;
+    }
+    .color {
+        position: relative;
+        top: -60px;
+        background: url(../El-Serial/Imagenes/blood2.png);
+        height: 100px;
+        opacity: 1;
+        width: 220px;
+        background-position: center;
+        background-size: cover;
+    }
