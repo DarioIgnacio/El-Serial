@@ -15,10 +15,7 @@
 }
 
 body {
-    background:url(../El-Serial/Imagenes/fondo3.jpg) center center;
-    background-size: 100%;
-    background-position-y: 150%;
-    margin:0;
+    background:black;
 
 }
 
@@ -196,7 +193,7 @@ filter: grayscale(100%);
 
 /* titulos */
 .peliculas{
-    color: black;
+    color:white;
     z-index: 99;
     font-size: 30px;
     position: relative;
@@ -212,6 +209,188 @@ opacity: 1;
 width: 220px;
 background-position: center;
 background-size: cover;
-
+margin-left: -30px;
 }
 
+/*programas tv */
+
+.programas{
+display: flex;
+width: 85%;
+height: 900px;
+align-content: center;
+color: white;
+flex-wrap: wrap;
+margin: auto;
+}
+/*programas 1 */
+.programas1{
+width: 50%;
+height: 50%;
+background: rgb(117, 3, 3);
+}
+.programas .programas1 h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.programas .programas1 h2{
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.descripcion1{
+    display: flex;
+    flex-direction: wrap;
+    margin-top: 15px;
+
+}
+.descripcion1 p{
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+}
+.imagen_programa1{
+    width: 70%;
+    height: 200px;
+    margin-top: 35px;
+}
+/*programas 2 */
+.programas2{
+    display: flex;
+    background: rgb(192, 125, 192);
+    width: 50%;
+    height: 50%;
+    flex-direction: row;
+}
+.descripcion2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 5px;
+}
+.descripcion2 img{
+    width: 100%;
+    height: 200px;
+}
+
+.descripcion2 h1,.descripcion2 h2{
+    width: 100%;
+}
+.descripcion2 h1{
+    width: 100%;
+    font-size: 30px;
+    margin:0;
+    padding: 0;
+    color: black;
+}
+.descripcion2 h2{
+    width: 100%;
+}
+
+.descripcion2b{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 5px;
+    border-left: solid black;
+}
+
+.descripcion2b h1,.descripcion2b h2{
+    width: 50%;
+}
+.descripcion2b h1{
+    width: 100%;
+    font-size: 30px;
+    margin:0;
+    padding: 0;
+    color: black;
+}
+.descripcion2b h2{
+    width: 100%;
+}
+.descripcion2b img{
+    width: 100%;
+    height: 200px;
+}
+
+/*programas 3 */
+.programas3{
+    display: flex;
+    background: rgb(192, 125, 192);
+    width: 50%;
+    height: 50%;
+    flex-direction: row;
+}
+.descripcion3{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 5px;
+    padding: 5px;
+}
+.descripcion3 img{
+    width: 100%;
+    height: 200px;
+}
+
+.descripcion3 h1,.descripcion3 h2{
+    width: 100%;
+}
+.descripcion3 h1{
+    width: 100%;
+    font-size: 30px;
+    margin:0;
+    padding: 0;
+    color: black;
+}
+.descripcion3 h2{
+    width: 100%;
+}
+
+.descripcion3b{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding:5px;
+    border-right: solid black;
+}
+
+.descripcion3b h1,.descripcion3b h2{
+    width: 50%;
+}
+.descripcion3b h1{
+    width: 100%;
+    font-size: 30px;
+    margin:0;
+    padding: 0;
+    color: black;
+}
+.descripcion3b h2{
+    width: 100%;
+}
+.descripcion3b img{
+    width: 100%;
+    height: 200px;
+}
+/*programas 4 */
+.programas4{
+    width: 50%;
+    height: 50%;
+    background: rgb(117, 3, 3);
+}
+.programas4 img{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: 30px auto;
+}
+.programas4 h1{
+padding: 0;
+margin: 0 0 0 40px;
+font-size: 30px;
+
+}
