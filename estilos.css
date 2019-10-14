@@ -1,22 +1,12 @@
-.logo {
-    width: 500px;
-}
-
-.icono1 {
-    width: 30px;
-}
-
-.icono3 {
-    width: 30px;
-}
-
-.icono2 {
-    width: 30px;
-}
 
 body {
     background:black;
 
+}
+/* Logo de la pagina */
+
+.logo {
+    width: 500px;
 }
 
 header {
@@ -25,35 +15,60 @@ header {
     justify-content: space-between;
 }
 
-input {
-    width: 130px;
-    height: 40px;
-}
 
-ul {
-    margin: 0;
-    padding: 0;
-}
+/* Menu */
 
-div.horizontal {
+.horizontal {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    justify-content: space-between;
     margin-right: 150px;
     margin-left: 150px;
     height: 20px;
+    justify-content: space-between;
+    position: relative;
+    top: -48px;
+}
+
+nav {
+    display: flex;
+    margin-top: 50px;
+    height: 65px;
+    background: rgba(118, 118, 118, 0.30);
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+    align-items: center;
+}
+
+button {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    color: rgb(255, 255, 255, 0.7);
+    background: none;
+    border: none;
+}
+
+button:hover {
+    color: rgb(255, 255, 255, 2);
 }
 
 .Menu {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.Menu2 {
-    display: flex;
-    list-style: none;
+.peliculas {
+    font-family: 'Raleway', sans-serif;
 }
+
+hr {
+    width: 80%;
+}
+
+
 /*peliculas*/
 .noticias{
 color: white;
@@ -415,4 +430,84 @@ padding: 0;
 margin: 0 0 0 40px;
 font-size: 30px;
 
+}
+
+/* Footer */
+
+.linea-foot {
+    position: inline;
+    width: 90%;
+    height: 1px;
+    border: 0;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+footer {
+    background-color: black;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.logosocial {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.contenedorlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.foot {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255, 0.7);
+    font-family: 'Raleway', sans-serif;
+}
+
+.footex {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: rgb(255, 255, 255, 0.7);
+    font-family: 'Raleway', sans-serif;
+}
+
+.foot:hover {
+    color: rgb(255, 255, 255, 2)
+}
+
+.footex:hover {
+    color: rgb(255, 255, 255, 2)
+}
+
+.titulo {
+    font-size: 30px;
+    margin: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.descripcionnoticia {
+    font-size: 25px;
+}
+
+.div-linea {
+    border-left: 2px rgb(255, 255, 255, 0.5) solid;
+    height: 50%;
+    margin-top: 40px;
 }
