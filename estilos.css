@@ -67,9 +67,10 @@ height: 100%;
 display: flex;
 flex-wrap: wrap;
 list-style: none;
-width: 100%;
+width: 85%;
 justify-content: space-around;
 align-content: space-around;
+margin: auto;
 }
 
 .peliculas_row{
@@ -96,9 +97,9 @@ border-radius: 3%;
 
 /*series*/
 .noticias2{
-    margin-top: 20px;
     height: 1000px;
-    width: 100%;
+    width: 85%;
+    margin: auto;
     }
 
 .arriba{
@@ -107,26 +108,33 @@ border-radius: 3%;
     flex-wrap: wrap;
     list-style: none;
     width: 100%;
-    
     }
 .blur{
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
     z-index: 10;
+    height: 100%;
 }
 .blur img{
     width: 100%;
     height: 100%;
+
 }
-.blur p{
+
+.parrafo1, .parrafo2{
     opacity: 0;
     position: relative;
-    top:-500px;
-    color:black;
+    left:-500px;
+    color:white;
     z-index: 99;
     font-size: 50px;
-    height: 200px;
+    height: 500px;
+    width: 300px;
+    margin:0;
+    padding:0;
+    display: block;
+    
 }
 .blur p:hover{
 opacity: 1;
@@ -148,7 +156,21 @@ filter: grayscale(100%);
     width: 100%;
     height: 100%;
 }
-
+.blur_abajo p{
+    opacity: 0;
+    position: absolute;
+    top:-50px;
+    color:white;
+    z-index: 99;
+    font-size: 50px;
+    height: 500px;
+}
+.blur_abajo:hover{
+    filter: grayscale(100%);
+}
+.blur_abajo p:hover{
+    opacity: 1;
+}
 
 /*carrousel*/
 
