@@ -206,7 +206,7 @@ filter: grayscale(100%);
 .color{
 position: relative;
 top:-60px;
-background: url(../El-Serial/Imagenes/blood2.png);
+background: url(Imagenes/blood2.png);
 height: 100px;
 opacity: 1;
 width: 220px;
